@@ -1,0 +1,149 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: rgba(61, 170, 10, 0.329);
+}
+.wrap {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 1200px;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+}
+header {
+  width: 1175px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  border: 3px dashed rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 10px;
+}
+.logo {
+  margin: 10px;
+  font-size: 25px;
+}
+.top_menu {
+  margin: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.top_menu li {
+  float: left;
+  margin: 0 15px;
+}
+.top_menu a:hover {
+  color: rgb(255, 129, 27);
+}
+
+.login {
+  margin: 10px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.login li {
+  float: left;
+  margin: 0 5px;
+}
+.login a:hover {
+  color: rgb(255, 129, 27);
+}
+.main {
+  width: 1200px;
+  /* height: 600px; */
+  /* background-color: aquamarine; */
+}
+.gini {
+  /* background-color: aquamarine; */
+  padding-top: 50px;
+  margin: 20px;
+  text-align: center;
+}
+.gini p {
+  width: 230px;
+  /* background-color: rgb(176, 206, 66); */
+  margin: 15px;
+}
+.gini span {
+  /* background-color: blueviolet; */
+  margin: 10px;
+  text-align: center;
+}
+.detial {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 245, 157);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main span {
+  margin: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.bt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bottom {
+  /* justify-content: space-around; */
+}
+
+img {
+  width: 180px;
+  border-radius: 100px;
+  margin: 30px 30px;
+}
+.im:hover {
+  opacity: 60%;
+}
+button {
+  padding: 3px;
+}
+.map_wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.md {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size:20px ;
+  /* background-color: rgb(255, 239, 91); */
+}
+.gini2 {
+  margin: 0px 30px;
+  text-align: center;
+}
+.bottom p {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer {
+  height: 100px;
+  background-color: rgb(145, 145, 145);
+  line-height: 100px;
+  padding: 0 10px;
+  margin-top: auto;
+}
+footer a {
+  margin: 10px;
+}
